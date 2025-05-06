@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #ffb6c1;
+    box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #ff1493 !important;
+  }
+  
+  /* Contact Section */
+  section {
+    padding: 60px 0;
+  }
+  
+  h2 {
+    color: #ff69b4;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Form */
+  form .form-label {
+    font-weight: 500;
+    color: #d63384;
+  }
+  
+  form .form-control {
+    border-radius: 8px;
+    border: 1px solid #ffa6c9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  form .form-control:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.5);
+  }
+  
+  .btn-pink {
+    background-color: #ff69b4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-pink:hover {
+    background-color: #ff1493;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 576px) {
+    h2 {
+      font-size: 24px;
+    }
+  
+    .btn-pink {
+      font-size: 16px;
+    }
+  }
+  /* Custom Table Header */
+.table-pink {
+    background-color: #ff69b4;
+  }
+  
+  /* Zebra striping (optional) */
+  table tbody tr:nth-child(even) {
+    background-color: #ffe6f0;
+  }
+  
+  table tbody tr:hover {
+    background-color: #fff0f5;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
