@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Calculator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="calculator.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Basic Calculator</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <input type="number" id="num1" class="form-control mb-3" placeholder="Enter first number">
+        <input type="number" id="num2" class="form-control mb-3" placeholder="Enter second number">
+        
+        <div class="d-flex justify-content-between mb-3">
+          <button class="btn btn-primary w-25" id="addBtn">+</button>
+          <button class="btn btn-secondary w-25" id="subBtn">−</button>
+          <button class="btn btn-success w-25" id="mulBtn">×</button>
+          <button class="btn btn-danger w-25" id="divBtn">÷</button>
+        </div>
+
+        <div id="result" class="alert alert-info text-center" role="alert">
+          Result
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
